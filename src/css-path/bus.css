@@ -1,0 +1,78 @@
+#bus h2 {
+    font-size: 17px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    margin-bottom: 40px;
+}
+
+#bus h2 .cocer  {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+#bus .sect-t{
+    width: 80%;
+    height: 500px;
+    border-radius: 30px;
+    background-image: url("/src/image/image__1_.avif");
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+    position: relative;
+}
+
+#bus .sect-t h3{
+    font-size: 40px;
+    color: white;
+    font-weight:600;
+    position: absolute;
+    left: 30px;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#bus .sect-t p{
+    font-size: 30px;
+    color: white;
+    font-weight:600;
+    position: absolute;
+    left:30px;
+    bottom:30px;
+}
+ 
+#bus .foot{
+    text-align:center;
+     width: 100%;
+    margin-top: 70px;
+}
+
+#bus .foot h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#bus .foot button{
+    padding: 10px 20px;
+    border:none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 17px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.foot-span{
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+
+@media(max-width:650px){
+#bus .sect-t{
+        width: 95%;
+    }
+
+    #bus .sect-t h3{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,62 @@
+#your-port {
+    margin-bottom:70px;
+}
+#your-port h2 {
+    font-size: 17px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    margin-bottom:30px;
+}
+
+#your-port h2 .cocer  {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#your-port nav{
+    width:max-content;
+    background-color: rgba(192, 192, 192, 0.271);
+    box-shadow:0 0 10px black;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+#your-port nav ul{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+
+
+#your-port nav ul li{
+    list-style: none;
+    padding: 13px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.active{
+   background-color:rgba(100, 100, 100, 0.201)
+}
+#your-port .img-cont{
+    margin: 0px auto;
+    background-image:url("/src/image/homepage-retail-portfolio\ \(1\).avif");
+    width:80%;
+    height: 600px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
+}
+
+
+@media(max-width:650px){
+    #your-port .img-cont {
+            width: 95%;
+        }
+    
+        #bus .sect-t h3{
+            font-size: 20px;
+        }
+    }

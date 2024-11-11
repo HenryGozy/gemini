@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Roboto;
+    font-weight: 400;
+}
+
+body {
+    padding-top: 150px;
+    background-color: whitesmoke;
+}
+
+header {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header .logo p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+header .logo .fa-gem {
+    color: rgb(64, 247, 247);
+}
+
+header .nav-llnk ul {
+    display: flex;
+    column-gap: 5px;
+}
+
+header .nav-llnk ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+header .nav-llnk ul li:hover a {
+    color: rgb(64, 247, 247);
+}
+
+header .nav-llnk ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+header .nav-llnk ul .sub-head {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 450px;
+    align-items: center;
+    opacity: 0;
+    margin-top: 10px;
+}
+
+header #SideBar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    opacity: 1;
+    overflow-x: scroll;
+}
+
+#SideBar .cancel {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#SideBar .sub-head2 {
+    background-color: black;
+    position: static;
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.menu-item{
+    transition: all ease 0.5s;
+}
+#SideBar .big{
+    font-size:25px;
+}
+.submit{
+    display:none;
+}
+#SideBar .sub-head2 h3{
+    font-size: 13px;
+}
+header .s-l {
+    display: flex;
+    align-items: center;
+}
+
+header .s-l button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+header .s-l button:nth-child(2) {
+    background-color: rgb(64, 247, 247);
+    padding: 10px 20px;
+    color: black;
+}
+
+#ham-cont {
+    display: none;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.lies {}
+
+.nav-llnk .lies:hover  .sub-head {
+    opacity: 1;
+    display: flex;
+}
+
+.sub-head h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.sub-head p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: grey;
+}
+
+.sub-head img {
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.top-head {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 10px;
+}
+
+#Asserts {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#Asserts .img-cont img:nth-child(1) {
+    width: 400px;
+}
+
+#Asserts .img-cont img:nth-child(2) {
+    width: 400px;
+}
+
+
+
+#Asserts .img-cont {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: max-content;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Asserts h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 90px;
+    font-weight: bold;
+}
+
+#Asserts p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#Asserts button {
+    padding: 15px 20px;
+    color: black;
+    background-color: rgb(64, 247, 247);
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+#Asserts .Download p {
+    font-size: 15px;
+}
+
+#Asserts .Download i {
+    font-size: 60px;
+}
+
+#Asserts .Download {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    background-color: rgba(192, 192, 192, 0.285);
+    width: max-content;
+    padding: 20px;
+    column-gap: 10px;
+    border-radius: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: max-content;
+    padding: 50px 0px 10px 0px;
+    margin-top: 70px;
+    background-color: white;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-i {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding: 10px 5%;
+    margin-top: 40px;
+}
+
+.icon {
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.footer-i .link-cont {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+form input {
+    display: block;
+}
+
+.foot-logo {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.email {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: 13px;
+    color: grey;
+}
+
+.footer h4 {
+    font-size: 13px;
+}
+
+@media(max-width:1200px) {
+    #Asserts .img-cont {
+        position: static;
+        flex-direction: column;
+        transform: translateY(0%);
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 0px auto;
+    }
+    #Asserts .img-cont img:nth-child(1) {
+        width:100%;
+    }
+
+    #Asserts .img-cont img:nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media(max-width: 860px) {
+    #hideonmobile {
+        display: none;
+    }
+
+    #ham-cont {
+        display: flex;
+    }
+}
+@media(max-width:1234px) {
+
+    .footer-links,
+    .footer-i {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-i {
+        align-items: center;
+        justify-content: center;
+        row-gap: 30px;
+        text-align: center;
+    }
+}

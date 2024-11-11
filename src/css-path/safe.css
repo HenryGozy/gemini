@@ -1,0 +1,88 @@
+#safe {
+    display: block;
+}
+
+#safe h2 {
+    font-size: 17px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    margin-bottom: 40px;
+}
+
+#safe h2 .cocer {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.p-con {
+    width: max-content;
+    height: max-content;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    margin-bottom: 70px
+}
+
+.p-con .cover {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    position: relative;
+}
+
+.p-con .cover img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-cont2 {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.btn-cont2 button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: rgba(192, 192, 192, 0.216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+
+@media(max-width:1234px) {
+    .p-con {
+     overflow-x: scroll;
+     width: 95%;
+     cursor:grab;
+     scrollbar-width:none;
+    }
+
+    .full {
+        height: 400px;
+    }
+
+    #covered .future:nth-of-type(2) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.371), rgba(0, 0, 0, 0.371)), url('/src/image/advanced_trading_mode_desktop.avif');
+        background-position: bottom;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+    }
+}
