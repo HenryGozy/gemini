@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    color: white;
-    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color:rgb(30,30,30);
     width: 100%;
     height: max-content;
     display: flex;
@@ -64,12 +64,13 @@ header .nav-llnk ul .sub-head {
     width: 100%;
     display: none;
     justify-content: space-around;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(30,30,30);
     color: rgb(255, 255, 255);
     height: 450px;
     align-items: center;
     opacity: 0;
     margin-top: 10px;
+
 }
 
 header #SideBar {
