@@ -43,7 +43,7 @@
 }
 #your-port .img-cont{
     margin: 0px auto;
-    background-image:url("/src/image/homepage-retail-portfolio\ \(1\).avif");
+    background-image:url("../image/homepage-retail-portfolio\ \(1\).avif");
     width:80%;
     height: 600px;
     border-radius: 30px;

@@ -15,7 +15,7 @@
     width: 80%;
     height: 500px;
     border-radius: 30px;
-    background-image: url("/src/image/image__1_.avif");
+    background-image: url("../image/image__1_.avif");
     background-position: center;
     background-size: cover;
     margin: 0px auto;
