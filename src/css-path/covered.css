@@ -47,7 +47,7 @@
 }
 
 #covered .future:nth-child(5) {
-    background-image: url('/src/image/Derivative_Homecard.avif');
+    background-image: url('../image/Derivative_Homecard.avif');
     background-position: right;
     background-size: cover;
     color: rgb(255, 255, 255);
